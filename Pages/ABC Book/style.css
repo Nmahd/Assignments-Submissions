@@ -1,15 +1,17 @@
 body{
     background-image:url(./assets/background.jpg);
     background-repeat: repeat;
-    font-family: One Trick Pony OT;
+    font-family: "DynaPuff", serif;
     padding: 0;
     margin: 0;
-    letter-spacing: 5px;
+    
 }
+
+
 #gototop{
     position: fixed;
     right: 50px;
-    bottom: 100px;
+    bottom: 10px;
     cursor: pointer;
     
 }
@@ -17,9 +19,9 @@ body{
 h1{
     display: flex;
    justify-content: center;
-   font-size: 5rem;
+   font-size: 9rem;
    color: rgb(255, 255, 255);    
-    background-color: rgba(0, 0, 0, 0.692);
+    background-color: rgba(74, 10, 10, 0.692);
    }
 
    div>img {
@@ -27,11 +29,11 @@ h1{
     height: auto;}
 
 h3{
-    font-size: 10rem;
+    font-size: 8rem;
 }
 
 p {
-    font-size: 5rem;
+    font-size: 4rem;
 }
 
 
@@ -41,7 +43,9 @@ nav a {
     display: inline-block;
     text-decoration: none;
     font-size: 4rem;
+    color: brown;
     transition: transform 0.1s ease-in-out;
+
 }
 
 nav>a:hover { 
@@ -53,7 +57,7 @@ nav>a:hover {
     display: flex;
    justify-content: center;
    position: sticky;
-   top: 0;
+   top: 0px;
    overflow: hidden;
    background-color: rgb(255, 255, 255);
 
