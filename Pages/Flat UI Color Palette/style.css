@@ -1,0 +1,62 @@
+body {
+    background-color: #3C40C6;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    font-weight: 600;
+
+}
+
+.main{
+    padding: 50px 100px 0px 100px;
+    gap: 20px;
+    flex-shrink: 1;
+    
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+.rightbutton{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    
+}
+
+.title{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-right: 50px;
+   
+
+}
+
+.colorpalette1{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    gap: 10px;
+    flex-shrink: 1;
+   
+}
+
+#box1{
+    background-color: white;
+    color: black;
+    height: 240px;
+    width: 280px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items:center ;
+    justify-content: space-around;
+    border-radius: 10px;
+
+
+    
+
+}
