@@ -4,13 +4,14 @@ body {
     margin: 0px;
     padding: 0px;
     font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
 
 .main{
     padding: 50px 100px 0px 100px;
     gap: 20px;
-    flex-shrink: 1;
+    
     
     
 }
@@ -42,6 +43,7 @@ a{
     justify-content: space-between;
     gap: 10px;
     flex-shrink: 1;
+    margin: 50px;
    
 }
 
