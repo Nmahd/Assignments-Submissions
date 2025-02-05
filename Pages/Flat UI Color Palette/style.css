@@ -8,6 +8,14 @@ body {
 
 }
 
+#backbutton{
+    color: rgb(47, 47, 47);
+    padding: 20px 20px;
+    background-color: white; 
+    display: flex;
+    width: 50px;
+}
+
 .main{
     padding: 50px 100px 0px 100px;
     gap: 20px;
@@ -40,10 +48,10 @@ a{
 .colorpalette1{
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
-    gap: 10px;
-    flex-shrink: 1;
+    flex-shrink: 2;
+    justify-content: center;
     margin: 50px;
+    gap: 100px;
    
 }
 
@@ -62,3 +70,37 @@ a{
     
 
 }
+
+
+@media(max-width:690px) {
+
+.main{
+font-size: .8em;
+padding: 50px;
+}
+
+.rightbutton{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+}
+
+}
+
+
+@media(max-width:330px) {
+
+    .main{
+    font-size: .8em;
+    padding: 30px;
+    }
+    
+    .rightbutton{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    
+    }
+    
+    }
