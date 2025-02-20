@@ -1,0 +1,168 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    
+}
+
+/* Contact Us Languages Navigation Bar */
+.maincontactnav{
+    display: flex;
+    background-color: #eeeeee;
+    color: #666666;
+    align-items: center;
+    justify-content: space-between;
+    font-size: small;
+    font-weight: 600;
+    padding: 0px 50px;
+
+}
+
+#contactlst{
+    list-style: none;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+ul>li{
+    margin-right: 30px;
+}
+
+/* Flags */
+.flags>img{
+    height: 20px;
+    margin-right: 10px;
+}
+
+
+/* Main Navigation Bar */
+.main-navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 15px;
+    border-bottom:1px solid #eeeeee;
+
+}
+
+.logo-left>img{
+    height: 50px;
+}
+
+.menu-right{
+    display: flex;
+    align-items:center ;
+}
+
+.menu-right>a{
+    text-decoration: none;
+    margin-right: 30px;
+    color: #666666;
+    font-size: small;
+}
+
+#donate-btn>button{
+    background-color: #0d6db7;
+    color: white;
+    height: 5vh;
+    width: 10vw;
+    border-radius: 5px;
+    border: 0px solid black;
+    margin-right: 5px;
+}
+
+#sponsor-btn>button{
+    background-color: #8dc63f;
+    color: white;
+    height: 5vh;
+    width: 10vw;
+    border-radius: 5px;
+    border: 0px solid black;
+}
+
+
+.hamburger-icon{
+    display: none;
+}
+
+
+
+/* Media Query for Desktop Screens */
+@media (max-width:2560px){
+
+    .scroll{
+       display: none;
+    }
+
+}
+
+
+/* Media Query for Laptop Screens */
+@media (max-width:1050px){
+
+    .menu-right{
+        display: none;
+    }
+
+    .hamburger-icon{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 40px;
+        width: 60px;
+        border: 2px solid #666666;
+        border-radius: 5px;
+    }
+
+
+}
+
+/* Media Query for Tablet Screens */
+@media (max-width:770px){
+
+    #contactlst{
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+}
+
+#englishbtn{
+    background-color: white;
+    color: black;
+    border: 0px solid white;
+    padding: 8px 15px;
+    font-weight: 500;
+}
+
+
+/* Media Query for Mobile */
+
+@media (max-width:430px){
+
+    #contactlst{
+       display: none;
+    }
+
+.leftcontactnav{
+ display: none;
+}
+
+.scroll{
+    display:block ;
+ }
+
+ .maincontactnav{
+    display: flex;
+    background-color: #eeeeee;
+    color: #666666;
+    align-items: center;
+    justify-content: center;
+  
+
+}
+
+}
