@@ -94,13 +94,13 @@ ul>li{
 /* Main Website Container */
 .container{
     margin: 20px 15px;
-
+    display: block;
 }
 
 /* Hero Section */
 .herosection{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
    
     
@@ -146,8 +146,59 @@ ul>li{
     
 }
 
+/* Donation Box */
+.donation-box{
+    background-color: #F0FCDB;
+    display: grid;
+    padding: 50px 25px;
+    justify-content: space-between;
+    margin-top:100px;  
+}
+
+.amount{
+    display:flex ;
+    
+    align-items: center;
+    background-color: rgb(42, 42, 42);
+    color: white;
+    height: 40px;
+    padding:5px 20px ;
+    gap: 10px;
+    border: 1px solid rgb(42, 42, 42) ;
+    border-radius: 5px;
+   
+
+}
+
+.amount>input{
+    height: 47px;
+}
+
+.amount>p{
+    font-size: .8rem;
+}
 
 
+.btn-donations>button{
+    height: ;
+    padding: 15px 30px ;
+    border: 0px solid white;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    box-shadow: 1px 2px 5px rgba(128, 128, 128, 0.195);
+    margin-left: 50px;
+    font-size: small;
+
+   
+}
+
+#quick-btn{
+background-color: #8DC63F;
+color: white;
+}
 
 
 
@@ -192,6 +243,18 @@ ul>li{
 
     .hero-bannerright>img{
         height: 350px;
+    }
+
+
+
+    .donation-box{
+        background-color: #F0FCDB;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 50px 25px;
+        height: 5px;
+      
     }
 
 }

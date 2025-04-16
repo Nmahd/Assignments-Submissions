@@ -1,0 +1,35 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-weight:  700;
+    font-size: 15vw;
+    font-family: "Kufam", sans-serif;
+    color:white;
+    background-color: rgb(29, 29, 29);
+
+   
+}
+
+.clock{
+    margin-top: 100px;
+   
+    box-shadow: inset;
+   
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    
+}
+
+
+.box{
+    background-color: rgb(65, 65, 65);
+    color:rgba(254, 153, 11, 0.936);
+    border-radius: 5vw;
+    border: 2px solid white;
+    padding: 2vw 4vw;
+    box-shadow: 1px 2px 50px black;
+}
