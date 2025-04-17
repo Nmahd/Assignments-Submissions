@@ -1,0 +1,121 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    background-color: #6552c8;
+    font-family: "Kufam", sans-serif;
+    font-size: 1rem;
+ 
+  
+    
+}
+
+h3{
+    font-size:3vw;
+    display: inline;
+}
+
+#main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+    
+    
+    
+}
+
+
+#calculatorInput{
+    width: 40.5vw;
+    height: 100px;
+    font-size: 2em;
+    background-color: #3E3866;
+    color: white;
+    font-family: "Kufam", sans-serif;
+    
+    
+    
+}
+
+.default{
+    background-color: #AC9EFF;
+    padding: 2vw ;
+    width: 10vw;
+    color: white;
+    font-family: "Kufam", sans-serif;
+    border: 0px solid white;
+
+    
+    
+    
+    
+}
+
+
+.default:hover{
+    background-color: #8c7de4;
+    padding: 2vw ;
+    width: 10vw;
+    color: white;
+    
+
+    
+    
+    
+    
+}
+
+.func{
+    background-color: #8c77f3;
+    padding: 2vw ;
+    width: 10vw;
+    color: white;
+    font-family: "Kufam", sans-serif;
+    border: 0px solid white;
+  
+    
+}
+
+.func:hover{
+    background-color: #735fd9;
+    padding: 2vw ;
+    width: 10vw;
+    color: white;
+  
+    
+}
+
+
+.redbtn{
+    background-color: #FF6661;
+    padding: 2vw ;
+    width: 10vw;
+    color: white;
+    font-family: "Kufam", sans-serif;
+    
+
+    
+}
+
+
+
+.redbtn:hover{
+    background-color: #da4d48;
+    padding: 2vw ;
+    width: 10vw;
+    color: white;
+    font-family: "Kufam", sans-serif;
+
+    
+}
+
+
+#zeroBtn{
+    width: 20.3vw;
+    color: white;
+    font-family: "Kufam", sans-serif;
+}
